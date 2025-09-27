@@ -45,14 +45,14 @@ cd CryptoProGUI
 
 **3. Скачайте и установите CryptoPro CSP**, если он ещё не установлен.
 
-**4. Скачайте** `cryptcp.exe` с официального [сайта КриптоПро] (https://cryptopro.ru/products/csp/downloads)(идёт вместе с CryptoPro CSP) и укажите путь к нему при первом запуске программы.
+**4. Скачайте** `cryptcp.exe` с официального [сайта КриптоПро](https://cryptopro.ru/products/csp/downloads) (идёт вместе с CryptoPro CSP) и укажите путь к нему при первом запуске программы.
 
 **5. Запустите приложение:**
 ```bash
 python main.py
 ```
 
-**6.** (Опционально) **Соберите .exe для Windows** с помощью [PyInstaller] (https://pyinstaller.org/en/stable/):
+**6.** (Опционально) **Соберите .exe для Windows** с помощью [PyInstaller](https://pyinstaller.org/en/stable/):
 ```bash
 python -m PyInstaller --onefile --windowed --name "CryptoGUI" main.py
 ```
